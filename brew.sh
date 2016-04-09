@@ -8,6 +8,7 @@ fi
 
 # Install caskroom
 brew tap caskroom/cask
+brew tap caskroom/fonts
 
 # Install command-line tools using Homebrew.
 
@@ -142,6 +143,10 @@ brew install cntlm
 
 brew cask install battle-net
 brew cask install steam
+
+# Fonts
+
+brew cask install font-inconsolata
 
 ################################################################################
 
