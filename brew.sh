@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+################################################################################
+# CUSTOM
+
 # Install Homebrew if it's not already installed
 which -s brew
 if [[ $? != 0 ]] ; then
@@ -9,6 +12,42 @@ fi
 # Install caskroom
 brew tap caskroom/cask
 brew tap caskroom/fonts
+
+# Dev
+
+brew cask install java
+brew install maven
+brew cask install visual-studio-code
+brew install node
+brew cask install virtualbox
+brew cask install virtualbox-extension-pack
+brew cask install vagrant
+brew cask install chefdk
+brew cask install soapui
+brew install gpg
+
+# Office
+
+brew cask install adobe-reader
+brew cask install evernote
+brew cask install microsoft-lync
+brew cask install microsoft-lync-plugin
+
+# Internet
+brew cask install google-chrome
+brew cask install jdownloader
+brew install cntlm
+
+# Games
+
+brew cask install battle-net
+brew cask install steam
+
+# Fonts
+
+brew cask install font-inconsolata
+
+################################################################################
 
 # Install command-line tools using Homebrew.
 
@@ -87,7 +126,7 @@ brew install tcpflow
 brew install tcpreplay
 brew install tcptrace
 brew install ucspi-tcp # `tcpserver` etc.
-brew install xpdf
+#brew install xpdf
 brew install xz
 
 # Install other useful binaries.
@@ -111,44 +150,6 @@ brew install tree
 brew install vbindiff
 brew install webkit2png
 brew install zopfli
-
-################################################################################
-# CUSTOM
-
-# Dev
-
-brew install git
-brew cask install java
-brew install maven
-brew cask install visual-studio-code
-brew install node
-brew cask install virtualbox
-brew cask install virtualbox-extension-pack
-brew cask install vagrant
-brew cask install chefdk
-brew cask install soapui
-
-# Office
-
-brew cask install evernote
-brew cask install microsoft-lync
-brew cask install microsoft-lync-plugin
-
-# Internet
-brew cask install google-chrome
-brew cask install jdownloader
-brew install cntlm
-
-# Games
-
-brew cask install battle-net
-brew cask install steam
-
-# Fonts
-
-brew cask install font-inconsolata
-
-################################################################################
 
 # Remove outdated versions from the cellar.
 brew cleanup
