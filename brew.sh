@@ -1,5 +1,14 @@
 #!/usr/bin/env bash
 
+# Install Homebrew if it's not already installed
+which -s brew
+if [[ $? != 0 ]] ; then
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
+
+# Install caskroom
+brew tap caskroom/cask
+
 # Install command-line tools using Homebrew.
 
 # Ask for the administrator password upfront.
@@ -101,6 +110,40 @@ brew install tree
 brew install vbindiff
 brew install webkit2png
 brew install zopfli
+
+################################################################################
+# CUSTOM
+
+# Dev
+
+brew install git
+brew cask install java
+brew install maven
+brew cask install visual-studio-code
+brew install node
+brew cask install virtualbox
+brew cask install virtualbox-extension-pack
+brew cask install vagrant
+brew cask install chefdk
+brew cask install soapui
+
+# Office
+
+brew cask install evernote
+brew cask install microsoft-lync
+brew cask install microsoft-lync-plugin
+
+# Internet
+brew cask install google-chrome
+brew cask install jdownloader
+brew install cntlm
+
+# Games
+
+brew cask install battle-net
+brew cask install steam
+
+################################################################################
 
 # Remove outdated versions from the cellar.
 brew cleanup
