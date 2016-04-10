@@ -25,6 +25,7 @@ brew cask install vagrant
 brew cask install chefdk
 brew cask install soapui
 brew install gpg
+brew cask install dockertoolbox
 
 # Office
 
