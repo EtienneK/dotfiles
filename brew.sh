@@ -35,9 +35,11 @@ brew cask install microsoft-lync
 brew cask install microsoft-lync-plugin
 
 # Internet
+
 brew cask install google-chrome
 brew cask install jdownloader
 brew install cntlm
+brew cask install transmission
 
 # Games
 
