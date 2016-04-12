@@ -26,6 +26,7 @@ brew cask install chefdk
 brew cask install soapui
 brew install gpg
 brew cask install dockertoolbox
+brew cask install fugu
 
 # Office
 
