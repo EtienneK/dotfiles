@@ -47,6 +47,7 @@ brew cask install transmission
 
 brew cask install battle-net
 brew cask install steam
+brew cask install remote-play
 
 # Fonts
 
