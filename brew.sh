@@ -28,6 +28,7 @@ brew install gpg
 brew cask install dockertoolbox
 brew cask install fugu
 brew install watch
+brew cask install keystore-explorer
 
 # Office
 
