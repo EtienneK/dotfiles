@@ -29,6 +29,7 @@ brew cask install dockertoolbox
 brew cask install fugu
 brew install watch
 brew cask install keystore-explorer
+brew install basex
 
 # Office
 
