@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+# Install Homebrew if it's not already installed
+which -s brew
+if [[ $? != 0 ]] ; then
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
+
 # Install command-line tools using Homebrew.
 
 # Make sure we’re using the latest Homebrew.
@@ -10,12 +16,6 @@ brew upgrade --all
 
 ################################################################################
 # CUSTOM
-
-# Install Homebrew if it's not already installed
-which -s brew
-if [[ $? != 0 ]] ; then
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-fi
 
 # Install caskroom
 brew tap caskroom/cask
