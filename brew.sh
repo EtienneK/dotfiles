@@ -55,6 +55,10 @@ brew cask install remote-play
 
 brew cask install font-inconsolata
 
+# Other
+
+brew cask install keka
+
 ################################################################################
 
 # Install command-line tools using Homebrew.
