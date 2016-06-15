@@ -6,6 +6,11 @@ if [[ $? != 0 ]] ; then
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
+# Install taps
+brew tap pivotal/tap
+brew tap caskroom/cask
+brew tap caskroom/fonts
+
 # Install command-line tools using Homebrew.
 
 # Make sure we’re using the latest Homebrew.
@@ -17,7 +22,8 @@ brew upgrade --all
 ################################################################################
 # CUSTOM
 
-# Install caskroom
+# Install taps
+brew tap pivotal/tap
 brew tap caskroom/cask
 brew tap caskroom/fonts
 
@@ -39,6 +45,7 @@ brew install watch
 brew cask install keystore-explorer
 brew install basex
 brew cask install hex-fiend
+brew install springboot
 
 # Office
 
