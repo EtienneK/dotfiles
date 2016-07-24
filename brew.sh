@@ -39,7 +39,7 @@ brew cask install vagrant
 brew cask install chefdk
 brew cask install soapui
 brew install gpg
-brew cask install dockertoolbox
+#brew cask install dockertoolbox
 brew cask install fugu
 brew install watch
 brew cask install keystore-explorer
