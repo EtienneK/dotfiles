@@ -60,6 +60,7 @@ brew cask install google-chrome
 brew cask install jdownloader
 brew install cntlm
 brew cask install transmission
+brew cask install whatsapp
 
 # Games
 
