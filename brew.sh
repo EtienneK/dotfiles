@@ -46,6 +46,9 @@ brew cask install keystore-explorer
 brew install basex
 brew cask install hex-fiend
 brew install springboot
+brew install openssl
+brew link --force openssl
+brew install heroku
 
 # Office
 
