@@ -79,7 +79,7 @@ brew cask install font-inconsolata
 # Other
 
 brew cask install keka
-brew cask install ledger
+brew install ledger
 
 ################################################################################
 
