@@ -39,7 +39,7 @@ brew cask install vagrant
 brew cask install chefdk
 brew cask install soapui
 brew install gpg
-#brew cask install dockertoolbox
+brew cask install docker
 brew cask install fugu
 brew install watch
 brew cask install keystore-explorer
@@ -50,6 +50,7 @@ brew install openssl
 brew link --force openssl
 brew install heroku
 brew cask install unetbootin
+brew install swagger-codegen
 
 # Office
 
