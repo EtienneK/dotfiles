@@ -58,6 +58,7 @@ brew cask install adobe-reader
 brew cask install evernote
 brew cask install microsoft-lync
 brew cask install microsoft-lync-plugin
+brew cask install macdown
 
 # Internet
 
