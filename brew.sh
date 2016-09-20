@@ -51,6 +51,7 @@ brew link --force openssl
 brew install heroku
 brew cask install unetbootin
 brew install swagger-codegen
+brew install jq
 
 # Office
 
