@@ -64,6 +64,7 @@ brew cask install macdown
 # Internet
 
 brew cask install google-chrome
+brew cask install firefox
 brew cask install jdownloader
 brew install cntlm
 brew cask install transmission
