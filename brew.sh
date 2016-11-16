@@ -86,6 +86,7 @@ brew cask install font-inconsolata
 brew cask install keka
 brew install ledger
 brew install graphviz
+brew cask install vlc
 
 ################################################################################
 
