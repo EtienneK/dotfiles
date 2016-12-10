@@ -70,6 +70,7 @@ brew cask install jdownloader
 brew install cntlm
 brew cask install transmission
 brew cask install whatsapp
+brew cask install ping-plotter
 
 # Games
 
@@ -87,6 +88,7 @@ brew cask install keka
 brew install ledger
 brew install graphviz
 brew cask install vlc
+brew install ffmpeg --with-libvpx
 
 ################################################################################
 
