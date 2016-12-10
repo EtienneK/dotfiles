@@ -70,7 +70,7 @@ brew cask install jdownloader
 brew install cntlm
 brew cask install transmission
 brew cask install whatsapp
-brew cask install ping-plotter
+brew cask install pingplotter
 
 # Games
 
