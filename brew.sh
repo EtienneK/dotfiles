@@ -89,6 +89,7 @@ brew install ledger
 brew install graphviz
 brew cask install vlc
 brew install ffmpeg --with-libvpx
+brew cask install synergy
 
 ################################################################################
 
