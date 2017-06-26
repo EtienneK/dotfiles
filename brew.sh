@@ -52,6 +52,7 @@ brew install heroku
 brew cask install unetbootin
 brew install swagger-codegen
 brew install jq
+brew cask install insomnia
 
 # Office
 
