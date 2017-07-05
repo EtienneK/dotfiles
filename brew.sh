@@ -72,6 +72,7 @@ brew install cntlm
 brew cask install transmission
 brew cask install whatsapp
 brew cask install pingplotter
+brew cask install slack
 
 # Games
 
