@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 # Make vim the default editor.
+export VISUAL='vim';
 export EDITOR='vim';
 
 # Enable persistent REPL history for `node`.
